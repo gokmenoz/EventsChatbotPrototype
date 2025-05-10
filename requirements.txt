@@ -1,0 +1,28 @@
+# Core LLM stack
+torch==2.1.2
+transformers==4.36.2
+accelerate==0.21.0
+
+# Embeddings and similarity
+sentence-transformers==2.2.2
+faiss-cpu
+
+# API
+fastapi
+uvicorn
+
+# Environment variables
+python-dotenv
+
+# AWS Bedrock (optional)
+boto3
+
+# Optional: UI / dev tools
+streamlit==1.35.0
+datasets==2.15.0
+
+# Compatibility
+numpy<1.26
+scipy<1.11
+huggingface-hub==0.20.3
+sympy>=1.13.3
